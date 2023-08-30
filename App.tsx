@@ -61,7 +61,7 @@ function App(): JSX.Element {
   const backgroundStyle = {
     backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
   };
-
+  console.log("Hello world!")
   return (
     <SafeAreaView style={backgroundStyle}>
       <StatusBar
